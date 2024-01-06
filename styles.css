@@ -1,0 +1,49 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: aliceblue;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+}
+button{
+	background-color:#00bbf9;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: #00f9f9c4;
+	border: 2px solid #00f9f9c4;
+	cursor: pointer;
+}
+body{
+    background-color: black;
+
+}
+h2{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: aliceblue;
+}
